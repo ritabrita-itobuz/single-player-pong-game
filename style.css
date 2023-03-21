@@ -1,3 +1,18 @@
+
+* {
+    cursor: none;
+    background-color: rgb(239, 225, 145);
+}
+.bat {
+    width: 15rem;
+    height:2rem;
+    background-color: rgb(161, 31, 31);
+    position: absolute;
+    pointer-events: none;
+    margin-top: 39rem;
+    border-radius: 35%;
+}
+
 .box {
     margin: 0;
     width: 100vw;
