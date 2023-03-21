@@ -1,0 +1,28 @@
+.box {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .box .ball {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3673cf;
+    box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+    position: absolute;
+    animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  }
+  
+  @keyframes moveX {
+    from { left: 0; } to { left: 100vw; }
+  }
+  
+  @keyframes moveY {
+    from { top: 0; } to { top: 100vh; }
+  }
+
+ 
+  
