@@ -1,6 +1,9 @@
-var x, y;
-var px, py;
-px = py = 0;
+var x;
+var y;
+var px;
+var py;
+px = 0;
+py = 0;
         
 // Image of cursor
 var cursor = document.getElementById("cursor");
